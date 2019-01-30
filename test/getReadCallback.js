@@ -1,10 +1,5 @@
-require('./utils/mock')();
-
-const chai = require('chai');
-chai.should();
-
+require('solcjs-mock')();
 const solcImport = require('../src/');
-// const solcResolver = require('../../src/lib/solc-resolver');
 
 describe('getReadCallback', () => {
 

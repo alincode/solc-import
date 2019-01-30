@@ -1,7 +1,4 @@
-require('./utils/mock')();
-
-const chai = require('chai');
-chai.should();
+require('solcjs-mock')();
 
 const solcImport = require('../src/');
 
